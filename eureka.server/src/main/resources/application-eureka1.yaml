@@ -1,0 +1,15 @@
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: localhost
+
+spring:
+  application:
+    name: eureka1
+
+other:
+  eureka:
+    host: localhost
+    port: 8762

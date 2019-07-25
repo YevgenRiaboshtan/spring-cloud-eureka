@@ -1,0 +1,4 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${other.eureka.host}:${other.eureka.port}/eureka/
